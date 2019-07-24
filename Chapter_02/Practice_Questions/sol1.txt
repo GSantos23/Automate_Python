@@ -1,0 +1,107 @@
+1. What are the two values of the Boolean data type? How do you write them?
+
+    True and False. True and False
+
+2. What are the three Boolean operators?
+
+    or, and, not. 
+
+3. Write out the truth tables of each Boolean operator (that is, every
+   possible combination of Boolean values for the operator and what 
+   they evaluate to).
+
+    or
+    op1     op2     Result
+    ----------------------
+    False   False   False
+    False   True    True
+    True    False   True
+    True    True    True
+
+    and
+    op1     op2     Result
+    ----------------------
+    False   False   False
+    False   True    False
+    True    False   False
+    True    True    True
+
+    not
+    op1     Result
+    ----------------------
+    False   True
+    True    False
+
+5. What do the following expressions evaluate to?
+
+    (5 > 4) and (3 == 5)                        : False
+    not (5 > 4)                                 : False
+    (5 > 4) or (3 == 5)                         : True
+    not ((5 > 4) or (3 == 5))                   : False
+    (True and True) and (True == False)         : False
+    (not False) or (not True)                   : True
+
+6. What are the six comparison operators?
+
+    >, <, ==, !=, >=, <=
+
+7. Explain what a condition is and where you would use one
+    
+    Is the comparision between values that generates a boolean expression, that
+    later is going to be used in the program.
+
+8. Identify the three blocks in this code:
+
+spam = 0
+----------------------------
+if spam == 10:
+*********************************
+    print('eggs')
+    /////////////////////////
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    //////////////////////
+    print('spam')
+---------------------------
+print('spam')
+
+9. Check ej_9.py
+
+10. What can you press if your program is stuck in an infinite loop?
+    
+    CTRL + C
+
+11. What is the difference between break and continue ?
+
+    break, exits loop scope immediately.
+
+    continue, returns to begining of loop scope to reevaluate the condition.
+
+12. What is the difference between range(10) , range(0, 10) , and range(0, 10, 1)
+    in a for loop?
+
+    range(10),    -- Count upto 10 (0 to 9)
+    range(0,10)   -- count from 0 to 9 in jumps of 1.
+    range(0,10,1) -- count from 0 to 9 in jumps of 1.
+
+13. Check ej_13.py
+
+14. If you had a function named bacon() inside a module named spam , how would 
+    you call it after importing spam ?
+
+    from spam import bacon
+
+Extra credit:
+
+ round(number[, ndigits]) 
+
+ Return number rounded to ndigits precision after the decimal point. 
+ If ndigits is omitted or is None, it returns the nearest integer to its input.
+
+
+abs(x)
+
+Return the absolute value of a number. The argument may be an integer or a 
+floating point number. If the argument is a complex number, its magnitude is returned.
