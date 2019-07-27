@@ -1,0 +1,78 @@
+1. Why are functions advantageous to have in your programs?
+
+    Allows you to recycle code and be part of a divide & conquer algorithm.
+
+
+2. When does the code in a function execute: when the function is defined or 
+    when the function is called?
+
+    When the function is called, the program goes to the function definiton to 
+    begin the execution.
+
+
+3. What statement creates a function?
+    
+    def functionName(someParameter):
+        # Some sexy code here
+
+
+4. What is the difference between a function and a function call?
+
+    A function call is when a function is called for execution, while a simple 
+    fucntion is a method implementation that could or could not be used.
+
+
+5. How many global scopes are there in a Python program? How many local scopes?
+
+    There is only one global scope. The number of local scopes of the program.
+
+
+6. What happens to variables in a local scope when the function call returns?
+
+    It is destroyed, so it is important to keep track of your scopes.
+
+
+7. What is a return value? Can a return value be part of an expression?
+    
+    A return value is the result (value) that a evaluated function returns.
+
+
+8. If a function does not have a return statement, what is the return value
+    of a call to that function?
+
+    None return value.
+
+
+9. How can you force a variable in a function to refer to the global variable?
+
+    Using <global> keyword before the varible declaration.
+
+
+10. What is the data type of None ?
+
+    It is a return value for non-returning value functions (void), as well a 
+    value that represent absence of value (NULL)
+
+
+11. What does the import areallyourpetsnamederic statement do?
+
+    import <longNameLibrary> 
+
+
+12. If you had a function named bacon() in a module named spam , how would you 
+    call it after importing spam ?
+
+    import spam   |  from spam import bacon
+                  |
+    bacon()       |
+
+
+13. How can you prevent a program from crashing when it gets an error?
+
+    With a try/except block.
+
+
+14. What goes in the try clause? What goes in the except clause?
+
+    try: statement to test.
+    except <errorName>: Error handling operation/message.
