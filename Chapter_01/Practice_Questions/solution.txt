@@ -51,4 +51,7 @@
     'I have eaten ' + 99 + ' burritos.'
 
     The error is because 99 is not a string. 
-    'I have eaten ' + '99' + ' burritos'.
+    'I have eaten ' + '99' + ' burritos.'
+
+    Using casting function
+    'I have eaten ' + str(99) + ' burritos.'
