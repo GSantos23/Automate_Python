@@ -12,7 +12,7 @@ for  i in range(1,11):
 print()
 
 print('Using while loop')
-j = 0
+j = 1
 while j < 11:
     print(j, end=' ')
     j = j + 1

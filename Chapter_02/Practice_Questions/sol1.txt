@@ -32,7 +32,7 @@
     False   True
     True    False
 
-5. What do the following expressions evaluate to?
+4. What do the following expressions evaluate to?
 
     (5 > 4) and (3 == 5)                        : False
     not (5 > 4)                                 : False
@@ -41,9 +41,14 @@
     (True and True) and (True == False)         : False
     (not False) or (not True)                   : True
 
-6. What are the six comparison operators?
+5. What are the six comparison operators?
 
     >, <, ==, !=, >=, <=
+
+6. What is the difference between equal to operator and assignment operator?
+    
+    Equal to operator (==), is used to compare the value between to variables.
+    Assignment operator (=), is used to assign/associate a value to a variable.
 
 7. Explain what a condition is and where you would use one
     
@@ -69,7 +74,7 @@ print('spam')
 
 9. Check ej_9.py
 
-10. What can you press if your program is stuck in an infinite loop?
+10. What keys can you press if your program is stuck in an infinite loop?
     
     CTRL + C
 
