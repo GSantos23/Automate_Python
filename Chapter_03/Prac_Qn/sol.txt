@@ -19,12 +19,13 @@
 4. What is the difference between a function and a function call?
 
     A function call is when a function is called for execution, while a simple 
-    fucntion is a method implementation that could or could not be used.
+    function is a method implementation that could or could not be used.
 
 
 5. How many global scopes are there in a Python program? How many local scopes?
 
-    There is only one global scope. The number of local scopes of the program.
+    There is only one global scope. The number of local scopes depends 
+    of the program.
 
 
 6. What happens to variables in a local scope when the function call returns?
@@ -56,7 +57,8 @@
 
 11. What does the import areallyourpetsnamederic statement do?
 
-    import <longNameLibrary> 
+    import <longNameLibrary>, this enable the use of method store in 
+    <longNameLibrary>.
 
 
 12. If you had a function named bacon() in a module named spam , how would you 
