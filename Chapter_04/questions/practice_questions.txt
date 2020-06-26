@@ -1,0 +1,89 @@
+1. What is [] ?
+It represents an empty list
+
+
+2. How would you assign the value 'hello' as the third value in a list stored
+in a variable named spam ? (Assume spam contains [2, 4, 6, 8, 10] .)
+spam[2] = 'hello'
+
+
+-------------------------------------------------------------------------------
+For the following three questions , let's say spam contains the list:
+['a', 'b', 'c', 'd']
+
+
+3. What does spam[int(int('3'* 2) // 11)] evaluate to?
+'d', given that the operation is 33 // 11 equal to 3.
+
+
+4. What does spam[-1] evaluate to?
+'d', the last element of the list
+
+
+5. What does spam[:2] evaluate to?
+['a', 'b']. From begining of list to n-1, so from 0 to 1.
+
+
+--------------------------------------------------------------------------------
+For the following  three questions, let's say bacon contains the list:
+
+bacon =[3.14, 'cat', 11, 'cat', True]
+
+6. What does bacon.index('cat') evaluate to?
+1
+
+
+7. What does bacon.append(99) make the list value in bacon look like?
+Add 99 to the bacon list
+bacon = [3.14, 'cat', 11, 'cat', True, 99]
+
+
+8. What does bacon.remove('cat') make the list value in bacon look like?
+Remove the first instance of 'cat' in the list
+bacon = [3.14, 11, 'cat', True, 99]
+
+
+9. What are the operators for list concatenation and list replication?
++, *
+
+10. What is the difference between the append() and insert() list methods?
+append() -- insert element at the  end of the list
+insert() -- insert element at specific position of the list
+
+
+11. What are two ways to remove values from a list?
+del()    --  Deletes specific value via index in the list
+remove() -- Deletes specific value via value in the list
+
+
+12. Name a few ways that list values are similar to string values.
+They can use len(), and slices
+
+
+13. What is the difference between lists and tuples?
+list uses [] and they are mutable (it can be changed)
+tuple uses () and they are inmmutable (it cannot be changed)
+
+
+14. How do you type the tuple value that has just the integer value 42 in it?
+myTuple = (42,)
+
+
+15. How can you get the tuple form of a list value? How can you get the list
+form of a tuple value?
+
+list_to_tuple = tuple(some_list)
+tuple_to_list = list(some_tuple)
+
+
+16. Variables that “contain” list values don’t actually contain lists directly.
+What do they contain instead?
+A list of references
+
+
+17. What is the difference between copy.copy() and copy.deepcopy() ?
+copy.copy() -- Allows a copy of a dictionary or list a real duplicate
+copy.deepcopy() -- Same as the previous one but recursive, in case of a list
+of list it also copy the inner list
+
+
